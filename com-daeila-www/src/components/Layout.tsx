@@ -1,19 +1,23 @@
 import React, { ReactNode } from 'react';
-// import Header from './Header';
-// import Footer from './Footer';
+import Header from './Header';
+import Footer from './Footer';
+import Article from './Article/Article';
+import { Encode_Sans } from 'next/font/google'
 
-type LayoutProps = {
+const EncodeSansFont = Encode_Sans({ subsets: ['latin'] })
+
+type BlogLayoutProps = {
   children: ReactNode;
 };
 
-const Layout = ( { children } : LayoutProps) => {
+const Layout = ( { children } : BlogLayoutProps) => {
   return (
-    <div>
-      {/* <Header /> */}
+    <div className={EncodeSansFont.className + " bg-silver-rust-300 text-silver-rust-800"}>
+      <Header />
       <main>{children}</main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
 
-export default Layout;  
+export default Layout;

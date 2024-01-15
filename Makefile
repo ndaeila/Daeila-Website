@@ -3,7 +3,7 @@ build: check-env
 	npm --prefix ./com-daeila-www run build
 
 # Just run in dev mode. You should build too because it's hotswap anyway. Up to you!
-dev: check-env 
+dev: check-env
 	npm --prefix ./com-daeila-www run dev
 
 # Run with a full build.
