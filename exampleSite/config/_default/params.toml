@@ -1,0 +1,114 @@
+#################### default parameters ################################
+# favicon
+favicon = "images/favicon.png"
+# logo
+logo = "images/logo.png"
+logo_dark = "images/logo-white.png"
+# use `px` or `x` with logo_width, example: "100px".
+# Note: logo_width is not work with .svg file
+logo_width = "120px"
+# logo text will only show when logo is missing.
+logo_text = "iWriter"
+
+# navbar fixed to top
+navbar_fixed = true
+# search
+search = true
+# Sidebar
+sidebar = "true" # sidebar value (true or false)
+
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
+custom_script = ""
+
+mainSections = ["blog"]
+
+# contact form works with https://formspree.io and Netlify
+# use Netlify's contact form functionality
+netlify = true # set to false if using formspree.io
+# contact form action
+contact_form_action = "#"
+# copyright
+theme_copyright = true
+copyright = "Copyright by your company"
+
+# google tag manager, see https://developers.google.com/tag-manager/
+google_tag_manager = "" # example: G-XXXXXXXXXX
+
+# theme-mode
+theme_switcher = true
+theme_default = "system" # available options [light/dark/system]
+
+# seo meta data for OpenGraph / Twitter Card
+[metadata]
+keywords = ["Hugo", "Blog", "Statichunt", "iWriter"]
+description = "iWriter is a blog template based on Bootstrap and powered by Hugo"
+author = "Statichunt"
+image = "images/og-image.jpg"      # this image will be used as fallback if a page has no image of its own
+
+# Preloader
+[preloader]
+enable = true
+preloader = "" # use jpg, png, svg or gif format.
+
+# matomo tracking: see https://matomo.org/
+[matomo]
+enable = false
+url = ""       # your matomo url
+id = ""        # your matomo id
+
+# baidu analytics: see https://tongji.baidu.com/
+[baidu]
+enable = false
+analytics_id = "" # Your ID
+
+# plausible analytics: see https://plausible.io/
+[plausible]
+enable = false
+domain = ""    # yourdomain.com
+
+# counter analytics: see https://counter.dev/setup.html
+[counter]
+enable = false
+username = ""  # your username
+
+# site verifications
+[site_verification]
+google = ""   # Your verification code
+bing = ""     # Your verification code
+baidu = ""    # Your verification code
+mastodon = "" # The URL to your profile a la https://example.com/@username
+
+######################## sidebar widgets #########################
+[widgets]
+sidebar = ["search", "categories", "recent-post", "social"]
+
+############################# social site ########################
+[[social]]
+title = "facebook"
+icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#"
+
+[[social]]
+title = "twitter"
+icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#"
+
+[[social]]
+title = "mastodon"
+icon = "fab fa-mastodon" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#"
+
+[[social]]
+title = "instagram"
+icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#"
+
+[[social]]
+title = "github"
+icon = "fab fa-pinterest" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#"
+
+[[social]]
+title = "linkedin"
+icon = "fab fa-youtube" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#"

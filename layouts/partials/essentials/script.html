@@ -1,0 +1,81 @@
+<!-- theme switcher -->
+{{ if site.Params.theme_switcher }}
+<script>
+  var darkMode = {{if eq site.Params.theme_default "dark"}}true{{else}}false{{end}};
+  {{ if eq site.Params.theme_default "system" }}
+  if (window.matchMedia('(prefers-color-scheme: dark)').matches){darkMode = true}
+  {{ end }}
+  if (localStorage.getItem('theme') === 'dark'){darkMode = true}
+  else if (localStorage.getItem('theme') === 'light'){darkMode = false}
+  if (darkMode){document.body.classList.toggle('dark')}
+  document.addEventListener('DOMContentLoaded', () => {
+    var themeSwitch = document.querySelectorAll('.theme-switcher');
+    [].forEach.call(themeSwitch, function (ts) {
+      ts.addEventListener('click', () => {
+        document.body.classList.toggle('dark');
+        localStorage.setItem('theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+      });
+    })
+  });
+</script>
+{{ end }}
+
+
+<!-- Bootstrap scripts -->
+{{ $bootstrap := resources.Get "js/bootstrap.js" }}
+{{ $params := dict }}
+{{ $sourceMap := cond hugo.IsProduction "" "inline" }}
+{{ $opts := dict "sourceMap" $sourceMap "target" "es2018" "params" $params }}
+{{ $bootstrap = $bootstrap | js.Build $opts }}
+{{ if hugo.IsProduction }}
+  {{ $bootstrap = $bootstrap | fingerprint "sha512" }}
+{{ end }}
+<script crossorigin="anonymous" defer {{ if hugo.IsProduction }}integrity="{{ $bootstrap.Data.Integrity }}"{{end}} type="application/javascript">{{$bootstrap.Content | safeJS}}</script>
+
+
+<!-- JS Plugins + Main script -->
+{{ $scripts := slice }}
+{{ range site.Params.plugins.js }}
+  {{ if findRE "^http" .link }}
+    <script src="{{ .link | relURL }}" type="application/javascript" {{ .attributes | safeHTMLAttr }}></script>
+  {{ else }}
+    {{ $scripts = $scripts | append (resources.Get .link) }}
+  {{ end }}
+{{ end }}
+
+
+<!-- search script -->
+{{ if site.Params.search }}
+  {{ $scripts = $scripts | append (resources.Get "plugins/search/fuse.js" ) }}
+  {{ $scripts = $scripts | append (resources.Get "plugins/search/search.js" ) }}
+{{ end }}
+
+
+<!-- main script -->
+{{ $scripts = $scripts | append (resources.Get "js/script.js") }}
+{{ $scripts = $scripts | resources.Concat "js/scripts.js" }}
+{{ if hugo.IsProduction }}
+  {{ $scripts = $scripts | fingerprint "sha512" }}
+{{ end }}
+<script crossorigin="anonymous" defer {{ if hugo.IsProduction }}integrity="{{ $scripts.Data.Integrity }}"{{end}} type="application/javascript">{{$scripts.Content | safeJS}}</script>
+
+
+<!-- font family -->
+{{ $pf:= site.Params.variables.font_primary }}
+{{ $sf:= site.Params.variables.font_secondary }}
+<script type="application/javascript">
+  WebFont.load({
+    google: {
+      api: 'https://fonts.googleapis.com/css2',
+      families: ['{{$pf | default `Lato:wght@400`}}{{if not $sf}}&display=swap{{end}}'{{with $sf}},'{{. | default `Lato:wght@400`}}&display=swap'{{end}}],
+      version: 2
+    },
+    active: () => {sessionStorage.fontsLoaded = true}
+  });
+</script>
+
+<!-- progressive web app -->
+{{ partialCached "pwa.html" . }}
+
+<!-- google adsense -->
+{{ partialCached "adsense-script.html" . }}

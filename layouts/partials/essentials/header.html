@@ -1,0 +1,174 @@
+<!-- navigation -->
+<header class="{{if site.Params.navbar_fixed}}sticky-top bg-body{{end}} navigation">
+  <div class="container">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light flex-lg-nowrap py-0">
+
+      <!-- navbar brand/logo -->
+      <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
+        {{ partial "logo.html"  }}
+      </a>
+      
+      <div class="d-flex align-items-center">
+        <!-- Language List -->
+        {{ if .IsTranslated }}
+        <select class="m-2 me-0 border-0 bg-transparent select-language d-inline-block d-lg-none" id="select-language" onchange="location = this.value;">
+          {{ $siteLanguages := site.Languages}}
+          {{ $pageLang := .Page.Lang}}
+          {{ range .Page.AllTranslations }}
+          {{ $translation := .}}
+          {{ range $siteLanguages }}
+          {{ if eq $translation.Lang .Lang }}
+          {{ $selected := false }}
+          {{ if eq $pageLang .Lang}}
+          <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}" selected>{{ .LanguageName }}
+          </option>
+          {{ else }}
+          <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}">{{ .LanguageName }}</option>
+          {{ end }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+        </select>
+        {{ end }}
+
+        {{ if site.Params.theme_switcher }}
+        <!-- theme switcher mobile -->
+        <div class="theme-switcher px-3 px-lg-4 d-inline-block d-lg-none">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" width="18" height="18" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000">
+            <mask id="m">
+              <circle class="masker" cx="7.5" cy="7.5" r="8.5" fill="#fff" />
+            </mask>
+            <g mask="url(#m)">
+              <path class="sun" d="M7.5 1.5v-1m0 13.99v-.998m6-5.997h1m-13 0h-1m2-4.996l-1-1m12 0l-1 1m-10 9.993l-1 1m12 0l-1-1m-2-4.997a2.999 2.999 0 01-3 2.998 2.999 2.999 0 113-2.998z" />  
+            </g>
+            <path class="moon" fill="white" d="M1.66 11.362A6.5 6.5 0 007.693.502a7 7 0 11-6.031 10.86z" />  
+          </svg>
+        </div>
+        {{ end }}
+
+        {{ if site.Params.search }}
+        <!-- search -->
+        <div class="search d-inline-block d-lg-none">
+          <button aria-label="search" class="searchOpen search-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="22" width="22" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>
+          </button>
+        </div>
+        {{ end }}
+
+        <!-- navbar toggler -->
+        <button aria-label="navbar toggler" class="navbar-toggler border-0 pe-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          <!-- menu active -->
+          {{ $currentPage := . }}
+          {{ range site.Menus.main }}
+          {{ $menuURL := .URL | absLangURL }}
+          {{ $pageURL:= $currentPage.Permalink | absLangURL }}
+          {{ $active := eq $menuURL $pageURL }}
+          {{ if .HasChildren }}
+          <li class="nav-item dropdown 
+            {{ range .Children }}
+            {{ $childURL := .URL | absLangURL }}
+            {{ $active := eq $childURL $pageURL }}
+            {{ if $active }}active{{ end }}
+            {{ end }}">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
+            <div class="dropdown-menu">
+              {{ range .Children }}
+              {{ $childURL := .URL | absLangURL }}
+              {{ $active := eq $childURL $pageURL }}
+              <a class="dropdown-item {{ if $active }}active{{ end }}" {{if findRE `^http` .URL}}target="_blank"
+                rel="noopener" {{end}}
+                href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
+              {{ end }}
+            </div>
+          </li>
+          {{ else }}
+          <li class="nav-item {{ if $active }}active{{ end }}">
+            <a class="nav-link" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
+              href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{.Name}}</a>
+          </li>
+          {{ end }}
+          {{ end }}
+        </ul>
+
+        <!-- Language List -->
+        {{ if .IsTranslated }}
+        <select class="m-2 me-0 border-0 bg-transparent select-language d-none d-lg-inline-block" id="select-language" onchange="location = this.value;">
+          {{ $siteLanguages := site.Languages}}
+          {{ $pageLang := .Page.Lang}}
+          {{ range .Page.AllTranslations }}
+          {{ $translation := .}}
+          {{ range $siteLanguages }}
+          {{ if eq $translation.Lang .Lang }}
+          {{ $selected := false }}
+          {{ if eq $pageLang .Lang}}
+          <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}" selected>{{ .LanguageName }}
+          </option>
+          {{ else }}
+          <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}">{{ .LanguageName }}</option>
+          {{ end }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+        </select>
+        {{ end }}
+
+         {{ if site.Params.theme_switcher }}
+        <!-- theme switcher -->
+        <div class="theme-switcher px-3 px-lg-4 d-none d-lg-inline-block">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" width="18" height="18" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000">
+            <mask id="m">
+              <circle class="masker" cx="7.5" cy="7.5" r="8.5" fill="#fff" />
+            </mask>
+            <g mask="url(#m)">
+              <path class="sun" d="M7.5 1.5v-1m0 13.99v-.998m6-5.997h1m-13 0h-1m2-4.996l-1-1m12 0l-1 1m-10 9.993l-1 1m12 0l-1-1m-2-4.997a2.999 2.999 0 01-3 2.998 2.999 2.999 0 113-2.998z" />  
+            </g>
+            <path class="moon" fill="white" d="M1.66 11.362A6.5 6.5 0 007.693.502a7 7 0 11-6.031 10.86z" />  
+          </svg>
+        </div>
+        {{ end }}
+         
+        {{ if site.Params.search }}
+        <!-- search -->
+        <div class="search d-none d-lg-inline-block">
+          <button aria-label="search" class="searchOpen search-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="22" width="22" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>
+          </button>
+        </div>
+        {{ end }}
+     
+      </div>
+    </nav>
+  </div>
+
+  <div class="search-wrapper {{if .IsHome}}bg-white{{else}}bg-body{{end}}">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-12 h-100">
+          <form action="{{ `search`| relLangURL }}" class="h-100 position-relative">
+            <input class="search-box bg-transparent" id="search-query" name="s" type="search"  placeholder="Type & Hit Enter...">
+            <button class="searchClose search-close {{if .IsHome}}bg-white{{else}}bg-body{{end}}" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- /navigation -->
