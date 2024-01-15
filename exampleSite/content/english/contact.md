@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description: "this is meta description"
+description: "This is a form that you can fill out and submit to get in contact with me."
 layout: "contact"
 draft: false
 form_name: "contact"
@@ -8,8 +8,9 @@ form_name: "contact"
 
 # Contact Me
 
-iWriter comes with a built-in contact form that you can use with Netlify or the Formspree.
-[Netlify](https://docs.netlify.com/forms/usage-and-billing/#app) allows for 100 submissions per month for free.
-[Formspree](https://formspree.io/plans) provides up to 50 submissions per month for free.
-You can also easily switch to another contact form service if you want.
+Welcome to Daeila.com! I'm thrilled that you've taken the time to visit my website.
+Whether you have questions, feedback, or just want to say hello, I'd love to hear from you.
+Your thoughts and ideas are important to me, and I'm here to assist you in any way I can.
+Please don't hesitate to reach out, and I'll do my best to respond promptly.
+Thank you for connecting with me, and I look forward to engaging with you!
 
