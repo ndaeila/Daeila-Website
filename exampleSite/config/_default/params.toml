@@ -26,7 +26,7 @@ mainSections = ["blog"]
 # use Netlify's contact form functionality
 netlify = false # set to false if using formspree.io
 # contact form action
-contact_form_action = "#"
+contact_form_action = "https://formspree.io/f/mjvnkopp"
 # copyright
 theme_copyright = true
 copyright = "Copyright by Daeila.com"
