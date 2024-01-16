@@ -6,19 +6,20 @@ categories: ["Career"]
 draft: false
 ---
 
-#### Hello and Welcome!
+Hello and Welcome!
 ------------------
 I'm Nathan, and I'm thrilled to introduce you to my new blog. Here, I'll be merging my passion for technology with my professional journey, aiming to create a space that's both informative and engaging.
 
-#### The Purpose Behind the Blog
+
+The Purpose Behind the Blog
 ---------------------------
-##### There are two main reasons I started this blog:
+There are two main reasons I started this blog:
 
 1. A Professional Showcase: This blog serves as my digital portfolio. It's where I'll document my projects, skills, and learnings, offering a real-time view into my professional growth.
 
 2. A Platform for Sharing: More than just a portfolio, I see this blog as a place to share my thoughts on technology, provide insights, and contribute to the wider tech community.
 
-#### Behind the Scenes: The Technical Setup
+Behind the Scenes: The Technical Setup
 --------------------------------------
 Let's talk about the tech powering this blog:
 
@@ -30,7 +31,7 @@ Let's talk about the tech powering this blog:
 
 - Docker Containers: The blog is housed in Docker containers, which makes its deployment consistent and reliable across different environments.
 
-#### What to Expect
+What to Expect
 --------------
 Here's a sneak peek of future content:
 
@@ -40,7 +41,7 @@ Here's a sneak peek of future content:
 
 - Personal Perspectives: I'll occasionally share my views on the latest in tech, career reflections, and more.
 
-#### Join the Conversation
+Join the Conversation
 ---------------------
 I'm excited to start this journey and even more to have you with me. Feel free to comment, share, and engage with the content. Your feedback and participation are highly valued!
 
