@@ -13,8 +13,14 @@
         <h1 class="display-2 mb-3">{{.title | markdownify}}</h1>
         <p class="mb-4 pb-2">{{.description | markdownify}}</p>
 
-        {{if .button.enable}}
-        {{with .button}}
+        {{if .button1.enable}}
+        {{with .button1}}
+        <a href="{{.link | relLangURL}}" class="btn btn-primary">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+
+        {{if .button2.enable}}
+        {{with .button2}}
         <a href="{{.link | relLangURL}}" class="btn btn-primary">{{ .label }}</a>
         {{ end }}
         {{ end }}
