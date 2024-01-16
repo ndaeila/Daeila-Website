@@ -2,7 +2,7 @@
 date: "2021-10-01"
 title: "Do what you can, with you have, where you are"
 image: "images/blog/02.jpg"
-categories: ["travel"]
+categories: ["professional", "technology"]
 draft: false
 ---
 

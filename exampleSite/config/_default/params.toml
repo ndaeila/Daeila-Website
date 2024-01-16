@@ -83,32 +83,13 @@ mastodon = "" # The URL to your profile a la https://example.com/@username
 sidebar = ["search", "categories", "recent-post", "social"]
 
 ############################# social site ########################
-[[social]]
-title = "facebook"
-icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
-
-[[social]]
-title = "twitter"
-icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
-
-[[social]]
-title = "mastodon"
-icon = "fab fa-mastodon" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
-
-[[social]]
-title = "instagram"
-icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
 
 [[social]]
 title = "github"
-icon = "fab fa-pinterest" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.github.com/ndaeila"
 
 [[social]]
 title = "linkedin"
-icon = "fab fa-youtube" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.linkedin.com/in/nathan-daeila"

@@ -11,7 +11,7 @@ draft: false
 ### Product Manager & iSchool Student
 #### University of Washington, Seattle
 
-I am Nathan Daeila, an aspiring Product Manager driven by a vision where every challenge is a stepping stone to innovation. Starting in the tech world as a high school intern during a global chip shortage, I quickly learned that when resources are scarce, creativity must flourish. Repairing computers and laptops was just the beginning; I soon found myself automating tasks in the IT department, paving my way to a role as a Systems Administrator.
+I am Nathan Daeila, an aspiring Product Manager driven by a vision where every challenge is a stepping stone to innovation. Starting in the tech world as an IT intern during a global chip shortage, I quickly learned that when resources are scarce, creativity must flourish. Repairing computers and laptops was just the beginning; I soon found myself automating tasks in the IT department, paving my way to a role as a Systems Administrator.
 
 My academic journey at the University of Washington in Seattle wasn't just about learning; it was about mastering the art of turning ideas into realities in application development, cybersecurity, data science, and cloud development. Internships at Jamf and Pacific Northwest National Laboratory were not just roles but adventures, each one molding me into a more versatile and resilient problem-solver.
 
@@ -31,5 +31,5 @@ I bring a diverse skill set to the table, including:
   * Data Science
   * Cybersecurity
 
-{{< button "Check out one of my projects" "https://www.daeila.com" >}}
+{{< button "Check out one of my projects" "https://www.daeila.com#post" >}}
 

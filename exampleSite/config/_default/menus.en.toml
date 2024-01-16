@@ -17,13 +17,23 @@ url = "contact/"
 weight = 3
 
 
-# [[main]]
-# name = "Element"
-# url = "element/"
-# weight = 4
-
 [[main]]
 weight = 4
+name = "Professional"
+hasChildren = true
+
+[[main]]
+parent = "Professional"
+name = "Résumé"
+url = "resume/"
+
+[[main]]
+parent = "Professional"
+name = "Portfolio"
+url = "categories/portfolio"
+
+[[main]]
+weight = 5
 name = "Pages"
 hasChildren = true
 
