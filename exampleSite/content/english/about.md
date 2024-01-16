@@ -8,9 +8,8 @@ draft: false
 ---
 
 ## Nathan Daeila
-### Product Manager and
-### iSchool Student @ the University of Washington
-#### Seattle, WA
+### Product Manager & iSchool Student
+#### University of Washington, Seattle
 
 I am Nathan Daeila, an aspiring Product Manager driven by a vision where every challenge is a stepping stone to innovation. Starting in the tech world as a high school intern during a global chip shortage, I quickly learned that when resources are scarce, creativity must flourish. Repairing computers and laptops was just the beginning; I soon found myself automating tasks in the IT department, paving my way to a role as a Systems Administrator.
 

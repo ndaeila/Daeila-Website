@@ -17,13 +17,13 @@ url = "contact/"
 weight = 3
 
 
-[[main]]
-name = "Element"
-url = "element/"
-weight = 4
+# [[main]]
+# name = "Element"
+# url = "element/"
+# weight = 4
 
 [[main]]
-weight = 5
+weight = 4
 name = "Pages"
 hasChildren = true
 
