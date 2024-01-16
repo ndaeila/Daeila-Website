@@ -13,16 +13,16 @@
         <h1 class="display-2 mb-3">{{.title | markdownify}}</h1>
         <p class="mb-4 pb-2">{{.description | markdownify}}</p>
 
-        <div>
+        <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start">
           {{if .button1.enable}}
           {{with .button1}}
-          <a href="{{.link | relLangURL}}" class="btn btn-primary mr-1">{{ .label }}</a>
+          <a href="{{.link | relLangURL}}" class="btn btn-primary m-1>{{ .label }}</a>
           {{ end }}
           {{ end }}
 
           {{if .button2.enable}}
           {{with .button2}}
-          <a href="{{.link | relLangURL}}" class="btn btn-primary mr-1">{{ .label }}</a>
+          <a href="{{.link | relLangURL}}" class="btn btn-primary m-1">{{ .label }}</a>
           {{ end }}
           {{ end }}
         </div> 
