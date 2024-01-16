@@ -1,13 +1,26 @@
+# if not already in exampleSite, cd into it
+cd-hugo:
+	@(pwd | grep -q exampleSite) || (cd exampleSite && pwd)
+
+# Build a hugo app 
+dev: cd-hugo
+	hugo server --bind 0.0.0.0 --port 1313 --gc --minify --theme ../..
+
+run: cd-hugo
+	hugo server --bind 0.0.0.0 --port 80 --gc --minify --disableLiveReload --watch=false --renderToDisk --theme ../..
+
+
+
 # Build using npm
-build: check-env
+build-old: check-env
 	npm --prefix ./com-daeila-www run build
 
 # Just run in dev mode. You should build too because it's hotswap anyway. Up to you!
-dev: check-env
+dev-old: check-env
 	npm --prefix ./com-daeila-www run dev
 
 # Run with a full build.
-run: check-env build
+run-old: check-env build
 	npm --prefix ./com-daeila-www run start
 
 # Check environment for node and npm
