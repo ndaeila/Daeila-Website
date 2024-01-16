@@ -1,9 +1,9 @@
 # Build a hugo app 
 dev:
-	cd exampleSite && hugo server --bind 0.0.0.0 --port 1313 --gc --minify --theme ../..
+	cd exampleSite && hugo server --port 1313 --gc --minify --theme ../..
 
 run:
-	cd exampleSite && hugo server --bind 0.0.0.0 --port 80 --gc --minify --disableLiveReload --watch=false --renderToDisk --theme ../..
+	cd exampleSite && hugo server --bind 0.0.0.0 --port 1313 --gc --minify --disableLiveReload --disableFastRender --watch=false --renderToDisk --theme ../..
 
 
 
