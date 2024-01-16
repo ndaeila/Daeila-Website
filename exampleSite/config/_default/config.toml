@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://www.daeila.com/"
-title = "iWriter - Personal Hugo Blog Theme"
-theme = "iWriter-hugo"
+title = "Daeila Personal Hugo Blog"
+theme = "Daeila-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "UTC"
 # post pagination
