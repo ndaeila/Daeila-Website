@@ -1,0 +1,53 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = ""
+weight = 1
+
+[[main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[main]]
+name = "Contact"
+url = "contact/"
+weight = 3
+
+
+[[main]]
+weight = 4
+name = "Professional"
+hasChildren = true
+
+[[main]]
+parent = "Professional"
+name = "Résumé"
+url = "resume/"
+
+[[main]]
+parent = "Professional"
+name = "Portfolio"
+url = "categories/portfolio"
+
+[[main]]
+weight = 5
+name = "Pages"
+hasChildren = true
+
+[[main]]
+parent = "Pages"
+name = "Blog Details"
+url = "blog/post-1/"
+
+[[main]]
+parent = "Pages"
+name = "Technology"
+url = "categories/technology"
+
+[[main]]
+parent = "Pages"
+name = "Automotive"
+url = "categories/automotive"

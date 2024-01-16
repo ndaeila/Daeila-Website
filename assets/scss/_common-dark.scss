@@ -1,0 +1,169 @@
+// theme switcher
+.theme-switcher {
+  cursor: pointer;
+  user-select: none;
+  .sun {
+    opacity: 0;
+  }
+  .moon,
+  .sun {
+    transition: 0.35s;
+  }
+}
+
+.dark .theme-switcher {
+  svg {
+    stroke: $white;
+  }
+  .sun {
+    opacity: 1;
+  }
+  .moon {
+    opacity: 0;
+  }
+}
+
+// content switcher
+body {
+  .only-dark {
+    display: none;
+  }
+  .only-light {
+    display: initial;
+  }
+  &.dark {
+    .only-light {
+      display: none;
+    }
+    .only-dark {
+      display: initial;
+    }
+  }
+}
+
+// other css
+.dark {
+  background-color: $dark-body-bg;
+  .bg-body {
+    background-color: $dark-body-bg !important;
+  }
+  .bg-white {
+    background-color: lighten($dark-body-bg, 2%) !important;
+  }
+  .footer a,
+  .accordion-button {
+    color: $dark-text-dark;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+  .code-tabs .nav-item.active .nav-link {
+    color: $white;
+  }
+  .card {
+    background-color: transparent;
+  }
+  .content thead {
+    background-color: transparent;
+  }
+  .accordion .accordion-body {
+    color: $white;
+  }
+
+  .content tbody tr:nth-child(odd),
+  .code-tabs .tab-content,
+  .accordion-item,
+  .accordion-button,
+  blockquote {
+    background-color: rgba($white, 0.05);
+  }
+
+  .content {
+    a {
+      color: $dark-text-dark;
+
+      &:hover {
+        color: $color-primary;
+      }
+    }
+    pre {
+      background-color: darken($dark-body-bg, 2%) !important;
+    }
+    hr {
+      border-color: $white !important;
+    }
+  }
+
+  .social-links {
+    a {
+      &:hover {
+        color: $white !important;
+      }
+    }
+  }
+
+  .content thead th {
+    color: $white;
+  }
+  p,
+  .code-tabs .nav-item .nav-link,
+  .content tbody tr td:nth-child(1) {
+    color: $dark-text-light;
+  }
+
+  .notices {
+    &.note p {
+      border-top: 1.9rem solid #6ab0de;
+      background: #1e303c;
+    }
+
+    &.tip p {
+      border-top: 1.9rem solid #78c578;
+      background: #243a24;
+    }
+
+    &.info p {
+      border-top: 1.9rem solid #f0b37e;
+      background: #42362c;
+    }
+
+    &.warning p {
+      border-top: 1.9rem solid #e06f6c;
+      background: #483331;
+    }
+  }
+
+  .checkmark svg {
+    fill: transparent;
+  }
+
+  .border,
+  .border-top,
+  .border-left,
+  .border-right,
+  .border-bottom,
+  .code-tabs .nav-item,
+  .content table,
+  .content thead tr,
+  .content table th,
+  .content table td,
+  .content tr:not(:last-child),
+  .accordion .accordion-body,
+  .accordion-item {
+    border-color: $dark-border-color !important;
+  }
+
+  .form-control,
+  textarea {
+    color: $white;
+    background-color: $dark-body-bg !important;
+  }
+  .widget input {
+    background-color: lighten($dark-body-bg, 2%) !important;
+    color: $dark-text-dark;
+
+    &::placeholder {
+      color: $dark-text-dark;
+    }
+  }
+}
