@@ -1,13 +1,9 @@
-# if not already in exampleSite, cd into it
-cd-hugo:
-	@(pwd | grep -q exampleSite) || (cd exampleSite && pwd)
-
 # Build a hugo app 
-dev: cd-hugo
-	hugo server --bind 0.0.0.0 --port 1313 --gc --minify --theme ../..
+dev:
+	cd exampleSite && hugo server --bind 0.0.0.0 --port 1313 --gc --minify --theme ../..
 
-run: cd-hugo
-	hugo server --bind 0.0.0.0 --port 80 --gc --minify --disableLiveReload --watch=false --renderToDisk --theme ../..
+run:
+	cd exampleSite && hugo server --bind 0.0.0.0 --port 80 --gc --minify --disableLiveReload --watch=false --renderToDisk --theme ../..
 
 
 
