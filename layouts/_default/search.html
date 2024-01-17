@@ -33,7 +33,9 @@
                 </ul>
                 <h2 class="h4 fw-light mb-3"><a class="post-title" href="${link}">${title} </a></h2>
                 <p class="card-text mb-4">${snippet}</p>
-                <a class="btn btn-outline-primary btn-sm" href="${link}">{{i18n `read_more`}}</a>
+                <div class="d-flex">
+                  <a class="btn btn-outline-primary btn-sm flex-fill" href="{{.RelPermalink}}">{{i18n `read_more`}}</a>
+                </div>
               </div>
             </div>
           </div>
