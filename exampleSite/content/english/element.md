@@ -5,6 +5,8 @@ layout: "element"
 draft: false
 ---
 
+This is going to be my resume.
+
 # Elements
 A paragraph looks like this — Globally incubate standards compliant channels before scalable benefits. Quickly
 disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar

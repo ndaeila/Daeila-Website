@@ -2,7 +2,7 @@
 date: "2024-01-15"
 title: "Welcome to My Tech Blog Journey!"
 image: "images/blog/01.jpg"
-categories: ["Portfolio"]
+categories: ["Portfolio", "Technology"]
 draft: false
 ---
 
