@@ -1,11 +1,11 @@
 ---
-date: "2023-11-15"
+date: "2023-12-15"
 title: "Oxygen - Fixing the Nursing Shortage"
 image: "images/blog/02.png"
 categories: ["Portfolio", "Technology", "Healthcare"]
 draft: false
 ---
-In the heart of the University of Washington's Annual DubHacks Hackathon, a seed of an idea took root, stemmed from a global issue in healthcare that hits my family close to home. My name is Nathan Daeila, and along with my colleague [Ben Price](URL "https://benprice.xyz"), we set out on a journey not just to develop an application but to create a meaningful solution to a critical problem facing our healthcare system: the nursing shortage. This narrative isn't about pitching an app; it's about sharing our journey, our challenges, our intentions, and everything else that went into making *Oxygen* a reality.
+In the heart of the University of Washington's Annual DubHacks Hackathon, a seed of an idea took root, stemmed from a global issue in healthcare that hits my family close to home. My name is Nathan Daeila, and along with my colleague Ben Price, we set out on a journey not just to develop an application but to create a meaningful solution to a critical problem facing our healthcare system: the nursing shortage. This narrative isn't about pitching an app; it's about sharing our journey, our challenges, our intentions, and everything else that went into making *Oxygen* a reality.
 
 #### Understanding the Magnitude of the Nursing Shortage
 To grasp the depth of the issue we aimed to address, it's essential to consider key statistics that highlight the severity of the nursing shortage:
@@ -33,7 +33,7 @@ The primary goal of *Oxygen* is straightforward yet ambitious: to empower indivi
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-carousel-widget" style="width:100%; height:600px; display:none;"
   data-link="https://photos.app.goo.gl/5ERKzBxvstRRCFfF6"
-  data-title="Untitled"
+  data-title=""
   data-description="5 new items · Album by N D">
   <object data="https://lh3.googleusercontent.com/pw/ABLVV85szTebR32rp4z7RqeYgOzQl_ksoEH9K9t8TUtvMLtPRb7YD8VYfoBuCXZnT6yLrwKhevsk_9zWCiSQEhI0wfkC9YosGvifAU-CYUHRvRuhIt2Lv6I=w1080-h1080"></object>
   <object data="https://lh3.googleusercontent.com/pw/ABLVV84RA1O9SNLU0QDTzHuVxxen5Tf5ROkMKq60t0DE4OrL19z__z1IQz78hEmQzUVeGRpGTQ602voDoeHjTRPeqOk9Z3eoA2xBdYLL7rg44ocrBqoZjmQ=w1080-h1080"></object>

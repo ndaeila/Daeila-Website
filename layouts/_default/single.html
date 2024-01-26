@@ -24,9 +24,10 @@
           </ul>
         </div>
 
-        <div class="content">
+        <div class="content col-lg-12">
           {{.Content}}
         </div>
+
         <!-- comments -->
         {{ if .Site.DisqusShortname }}
         <div class="mt-5">
@@ -35,11 +36,18 @@
         {{ end }}
 
       </div>
-    </div>
+
+      <div class="col-lg-3">
+        <div class="bg-body ms-xl-3 p-4 rounded">
+          <!-- widget -->
+          {{ $widget:= site.Params.widgets.sidebar }}
+          {{ partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}
+        </div>
+      </div>
 
     <div class="row">
       <div class="col-12 col-lg-10 mx-auto text-center">
-        <h2 class="mb-5 text-capitalize">popular post</h2>
+        <h2 class="mb-5 text-capitalize">See My Other Posts</h2>
       </div>
     </div>
 
@@ -74,6 +82,7 @@
       </div>
       <!-- col end -->
       {{ end }}
+
     </div>
 
   </div>

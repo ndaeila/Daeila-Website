@@ -40,8 +40,8 @@ theme_default = "system" # available options [light/dark/system]
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-keywords = ["Hugo", "Blog", "Daeila"]
-description = "Daeila.com is a blog based on Bootstrap and powered by Hugo"
+keywords = ["Blog", "Daeila"]
+description = "Daeila.com is a blog where Nathan Daeila posts articles about topics he cares about."
 author = "Nathan Daeila"
 image = "images/og-image.jpg"      # this image will be used as fallback if a page has no image of its own
 

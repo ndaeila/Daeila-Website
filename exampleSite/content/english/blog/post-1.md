@@ -1,5 +1,5 @@
 ---
-date: "2024-01-15"
+date: "2023-12-02"
 title: "Welcome to My Tech Blog Journey!"
 image: "images/blog/01.jpg"
 categories: ["Portfolio", "Technology"]

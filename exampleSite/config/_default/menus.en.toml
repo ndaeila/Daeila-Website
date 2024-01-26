@@ -46,8 +46,3 @@ url = "blog/post-1/"
 parent = "Pages"
 name = "Technology"
 url = "categories/technology"
-
-[[main]]
-parent = "Pages"
-name = "Automotive"
-url = "categories/automotive"
