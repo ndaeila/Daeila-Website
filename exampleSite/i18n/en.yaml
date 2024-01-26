@@ -10,8 +10,8 @@
 - id: contact_me
   translation: Contact me
   
-- id: follow_me
-  translation: Follow me
+- id: professional_links
+  translation: Professional Links
 
 - id: first_name
   translation: First Name

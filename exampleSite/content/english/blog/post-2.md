@@ -1,11 +1,10 @@
 ---
 date: "2023-11-15"
-title: "Fixing the Nursing Shortage"
+title: "Oxygen - Fixing the Nursing Shortage"
 image: "images/blog/02.png"
 categories: ["Portfolio", "Technology", "Healthcare"]
 draft: false
 ---
-
 In the heart of the University of Washington's Annual DubHacks Hackathon, a seed of an idea took root, stemmed from a global issue in healthcare that hits my family close to home. My name is Nathan Daeila, and along with my colleague [Ben Price](URL "https://benprice.xyz"), we set out on a journey not just to develop an application but to create a meaningful solution to a critical problem facing our healthcare system: the nursing shortage. This narrative isn't about pitching an app; it's about sharing our journey, our challenges, our intentions, and everything else that went into making *Oxygen* a reality.
 
 #### Understanding the Magnitude of the Nursing Shortage
@@ -55,7 +54,7 @@ One of the most significant challenges was designing an application that was bot
 Since its inception, *Oxygen* has evolved from a simple idea into a platform with the potential to make a real impact. Our focus has always been on the application's utility and relevance to the nursing shortage crisis. As we look to the future, our plans include enhancing *Oxygen*'s features to support career progression, continuous learning, and professional development in nursing.
 
 <div>
-    <iframe src="https://uwnetid-my.sharepoint.com/personal/ndaeila_uw_edu/_layouts/15/Doc.aspx?sourcedoc={e323ae06-aac3-45b6-829a-1acc7bb98755}&amp;action=embedview&amp;wdAr=1.7763888888888888" width="100%" height="400px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+  <iframe src="https://onedrive.live.com/embed?resid=2476E95338734F04%218101&amp;authkey=!ACBynCYlToqx1g4&amp;em=2&amp;wdAr=1.7763888888888888" width="100%" height="400px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
 </div>
 
 In reflecting on our journey with *Oxygen*, what stands out the most is the sincerity of our mission. We didn't embark on this project for accolades or recognition; our motivation was fueled by a genuine concern for the healthcare sector and a belief in the power of technology to bring about positive change. *Oxygen* is a testament to what can be achieved when passion, technology, and a desire to contribute to the greater good come together.

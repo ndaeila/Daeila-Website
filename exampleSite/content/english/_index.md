@@ -1,7 +1,7 @@
 ---
 banner:
   title: "Hello, I’m <br/> Nathan Daeila"
-  description: "Need something done correctly? Let's start tomorrow."
+  description: "Need something done? Let's start now."
   image: "images/banner.jpg"
   button1:
     enable : true
