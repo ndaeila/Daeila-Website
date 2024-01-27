@@ -23,10 +23,11 @@
     <img src="exampleSite/assets/images/logo.png" alt="Logo" width="180" height="180" style="background-color: white; border: 4mm ridge rgba(0, 0, 0, .6); border-radius: 20px; ">
   </a>
 
-<h3 align="center"><i>My Blog</i><br>Nathan Daeila</h3>
+<h3 align="center"><i>My Personal Blog</i><br>Nathan Bardia Daeila</h3>
 
   <p align="center">
-    Written in Hugo because I didn't want to spend too much time on the UI.
+    I planned on developing this blog for a while, as a way to share my projects, knowledge, and insight. I learned many things along the process and will share my findings in future articles.
+    <br />
     <br />
     <a href="https://github.com/ndaeila/Daeila-Website"><strong>Explore the docs »</strong></a>
     <br />
@@ -50,30 +51,28 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
+    <!--<li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#usage">Usage</a></li>-->
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <!--<li><a href="#acknowledgments">Acknowledgments</a></li>-->
   </ol>
 </details>
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About My Portfolio Blog
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+[![www.daeila.com Screen Shot][product-screenshot]](https://www.daeila.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,9 +80,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
+* [![GoLang][go.dev]][Golang-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+
+And other services. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,8 +92,9 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- The Project -->
 ## Introduction
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+If you would like to know more about why I created this project, please see the About section of my webpage:
+
+[![About this Site][about-shield]][about-url]
 
 <!-- ### Prerequisites
 
@@ -139,6 +140,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 - ☒ Create a Blog with Markdown Articles
+    - ☐ Refine UI elements
 - ☐ Extra Features
     - ☐ Create a Network Architecture Diagram
         - Auto-Loading Network Diagram
@@ -224,7 +226,9 @@ Project Link: [https://github.com/ndaeila/Daeila-Website](https://github.com/nda
 [license-url]: https://github.com/ndaeila/Daeila-Website/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/nathan-daeila
-[product-screenshot]: images/screenshot.png
+[about-shield]: https://img.shields.io/badge/About_This_Blog-37a724?style=for-the-badge
+[about-url]: https://www.daeila.com/blog/post-1/
+[product-screenshot]: images/screenshot.jpg
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
@@ -241,3 +245,5 @@ Project Link: [https://github.com/ndaeila/Daeila-Website](https://github.com/nda
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+[go.dev]: https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white
+[Golang-url]: https://go.dev
