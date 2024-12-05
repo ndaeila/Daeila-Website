@@ -42,7 +42,7 @@ theme_default = "system" # available options [light/dark/system]
 [metadata]
 keywords = ["Blog", "Daeila"]
 description = "Daeila.com is a blog where Nathan Daeila posts articles about topics he cares about."
-author = "Nathan Daeila"
+authors = ["Nathan Daeila"]
 image = "images/og-image.jpg"      # this image will be used as fallback if a page has no image of its own
 
 # Preloader
@@ -82,14 +82,21 @@ mastodon = "" # The URL to your profile a la https://example.com/@username
 [widgets]
 sidebar = ["search", "categories", "recent-post", "social"]
 
+
+
 ############################# social site ########################
 
-[[social]]
-title = "github"
-icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
+[[params.social]]
+name = "GitHub"
+icon = "fab fa-github" # fontawesome icon pack
 link = "https://www.github.com/ndaeila"
 
-[[social]]
-title = "linkedin"
-icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+[[params.social]]
+name = "LinkedIn"
+icon = "fab fa-linkedin" # fontawesome icon pack
 link = "https://www.linkedin.com/in/nathan-daeila"
+
+
+
+############################# author ########################
+authors = ["Nathan Daeila"]

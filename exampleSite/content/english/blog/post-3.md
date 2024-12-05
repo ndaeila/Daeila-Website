@@ -10,7 +10,7 @@ draft: false
 
 Duolingo is a language learning application that captivates its users by gamifying the process of language acquisition. It goes beyond the basics, ensuring every facet of the app is engaging, much like a game. This includes the competitive League System, motivating Streaks, and the rewarding cycle of awards and achievements. These features are meticulously crafted to enhance the user experience, motivating learners to engage with multiple Duolingo lessons daily.
 
-![EngagementDiagram](/images/blog/03-EngagementDiagram.png)
+<img src="/images/blog/03-EngagementDiagram.png">
 
 
 #### Maintaining Commitment to Duolingo
@@ -57,7 +57,7 @@ Leagues offer more than just competition; they present a challenge of upkeep sim
 
 <div class="d-flex justify-content-evenly">
   <img src="/images/blog/03-LeagueSystem-DZone.png" style="width: 30%;">
-  <img src="/images/blog/03-LeagueSystem-demotion.jpg" style="width: 30%;">
+  <img src="/images/blog/03-LeagueSystem-demotion.png" style="width: 30%;">
 </div>
 
 Despite the pressure leagues might impose, opting out isn't an option. Completion of a league automatically enrolls users in the next cycle post-lesson. This means users are continuously engaged in either staving off demotion or striving for promotion, ensuring a persistent, if challenging, engagement with the app. While lessons seem to be fun, features like these make it more stressful to have fun doing lessons, as there is a larger matter at hand: maintaining your level or moving to the next level. This competition-stimulating feature is an example of The Overjustification Effect, and how rewards may cause people to lose motivation for activities they used to believe were fun. Instead of the users wanting to do lessons, this system causes users feel like they need to do lessons to maintain their standing.
@@ -68,7 +68,8 @@ Despite the pressure leagues might impose, opting out isn't an option. Completio
   <img src="/images/blog/03-FriendQuest.png" style="width: 30%;">
 </div>
 You wouldn't want to let your friend down, would you? If you do, they'll know. The Friend Quests feature in Duolingo pairs you with a mutual friend from the list of people you follow on the platform, fostering accountability for both of you to complete these quests. This way, your commitment isn't just to the app but also to your friend who depends on your contribution, just as you depend on theirs. Unlike the League System, Friend Quests are set automatically, but with a significant distinction: you sometimes have the option to choose the friend with whom you want to complete the quest. By initiating a Friend Quest, Duolingo offers another incentive to return to the app: to undertake lessons that keep you accountable to your friends. Furthermore, the app empowers you to choose your quest partner, potentially leading to selections based on who you value more, enhancing the personal connection to the learning journey.
-<br><br><br>
+
+> Thank you for reading this far! This is section 1 of 4 sections. More to be posted soon. I will be covering "Combatting Lesson Fatigue", "Variegated Reminders", and "Prestige: Stay Consistent or Lose It". Expect an update in 1 week! -Nathan Daeila
 
 #### References
 

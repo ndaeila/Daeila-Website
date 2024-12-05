@@ -48,14 +48,6 @@ font_secondary = ""
 font_secondary_type = ""              # [serif/sans-serif]
 font_icon = "Font Awesome 6 Free"     # https://fontawesome.com/v6/icons
 
-[[module.mounts]]
-source = 'static'
-target = 'static'
-
-[[module.mounts]]
-source = 'images'
-target = 'static/images'
-
 
 ############################# Plugins ##############################
 
