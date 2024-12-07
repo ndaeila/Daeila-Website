@@ -3,9 +3,9 @@
     <div class="row section">
       <div class="col-12">
         <h4 class="fw-semibold">{{ i18n `professional_links` }}</h4>
-        {{ if .Site.Params.social }}
+        {{ if site.Params.social }}
           <ul class="list-inline social-links">
-            {{ range .Site.Params.social }}
+            {{ range site.Params.social }}
               <li class="list-inline-item">
                 <a href="{{ .link | safeURL }}" title="{{ .title | humanize }}">
                   <i class="{{ .icon }}"></i>

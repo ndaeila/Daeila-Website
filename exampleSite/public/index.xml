@@ -1,34 +1,75 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nathan Daeila - Technical Blog</title><link>http://localhost:1313/</link><description>Recent content on Nathan Daeila - Technical Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>100 Days of Learning Chinese: Product Breakdown of Duolingo</title><link>http://localhost:1313/blog/post-3/</link><pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/blog/post-3/</guid><description>&lt;p>&amp;ldquo;I want to spend a year in Shenzhen,&amp;rdquo; I mentioned to my friends, with no reasonable explanation. To make my goal a reality, I decided to learn Mandarin Chinese, the primary language in Shenzhen, China. I quickly realized learning Chinese is difficult - the Chinese character set, Hanzi, is different from the English alphabet, in that the symbols illustrate meanings instead of representing phonetic sounds. I searched on Google for the best way to learn Chinese, and the first result was &lt;em>Duolingo&lt;/em>, an application that I initially heard about from Social Media. Duolingo is instantly recognizable for its mascot, a green, pudgy owl, now celebrated as a TikTok celebrity and familiar to many teenagers and adults.&lt;/p></description></item><item><title>Oxygen - Fixing the Nursing Shortage</title><link>http://localhost:1313/blog/post-2/</link><pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/blog/post-2/</guid><description>&lt;p>In the heart of the University of Washington&amp;rsquo;s Annual DubHacks Hackathon, a seed of an idea took root, stemmed from a global issue in healthcare that hits my family close to home. My name is Nathan Daeila, and along with my colleague Ben Price, we set out on a journey not just to develop an application but to create a meaningful solution to a critical problem facing our healthcare system: the nursing shortage. This narrative isn&amp;rsquo;t about pitching an app; it&amp;rsquo;s about sharing our journey, our challenges, our intentions, and everything else that went into making &lt;em>Oxygen&lt;/em> a reality.&lt;/p></description></item><item><title>Welcome to My Tech Blog Journey!</title><link>http://localhost:1313/blog/post-1/</link><pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/blog/post-1/</guid><description>&lt;h5 id="hello-and-welcome">Hello and Welcome!&lt;/h5>
-&lt;p>I am Nathan, and I am thrilled to introduce you to my new blog. Here, I&amp;rsquo;ll be merging my passion for technology with my professional journey, aiming to create a space that&amp;rsquo;s both informative and engaging.&lt;/p></description></item><item><title>Search Result</title><link>http://localhost:1313/search/</link><pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate><guid>http://localhost:1313/search/</guid><description/></item><item><title>About</title><link>http://localhost:1313/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/about/</guid><description>&lt;h2 id="nathan-daeila">Nathan Daeila&lt;/h2>
-&lt;h3 id="product-manager--ischool-student">Product Manager &amp;amp; iSchool Student&lt;/h3>
-&lt;h4 id="university-of-washington-seattle">University of Washington, Seattle&lt;/h4>
-&lt;p>I am Nathan Daeila, an aspiring Product Manager driven by a vision where every challenge is a stepping stone to innovation. Starting in the tech world as an IT intern during a global chip shortage, I quickly learned that when resources are scarce, creativity must flourish. Repairing computers and laptops was just the beginning; I soon found myself automating tasks in the IT department, paving my way to a role as a Systems Administrator.&lt;/p></description></item><item><title>Contact</title><link>http://localhost:1313/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/contact/</guid><description>&lt;h1 id="contact-me">Contact Me&lt;/h1>
-&lt;p>Welcome to Daeila.com! I&amp;rsquo;m thrilled that you&amp;rsquo;ve taken the time to visit my website.
-Whether you have questions, feedback, or just want to say hello, I&amp;rsquo;d love to hear from you.
-Your thoughts and ideas are important to me, and I&amp;rsquo;m here to assist you in any way I can.
-Please don&amp;rsquo;t hesitate to reach out, and I&amp;rsquo;ll do my best to respond promptly.
-Thank you for connecting with me, and I look forward to engaging with you!&lt;/p></description></item><item><title>Element</title><link>http://localhost:1313/element/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/element/</guid><description>&lt;p>This is going to be my resume.&lt;/p>
-&lt;h1 id="elements">Elements&lt;/h1>
-&lt;p>A paragraph looks like this — Globally incubate standards compliant channels before scalable benefits. Quickly
-disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar
-catalysts for change before vertical architectures. Credibly reintermediate backend ideas for cross-platform
-models. Continually reintermediate integrated processes through technically sound intellectual capital.
-Holistically foster superior methodologies. Check out &lt;a href="https://daeila.com"
-
-
-
-
- target="_blank"
- 
-
-
->Daeila.com&lt;/a>
-&lt;/p></description></item><item><title>My Resume</title><link>http://localhost:1313/resume/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/resume/</guid><description>&lt;div style="text-align: center;">&lt;a
- href="http://tinyurl.com/ndaeila-resume"
- class="btn btn-primary text-white"
- 
- target="_blank" rel="noopener"
- 
- >Download Resume&lt;/a
->
-&lt;/div></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nathan Daeila - Technical Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Nathan Daeila - Technical Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>100 Days of Learning Chinese: Product Breakdown of Duolingo</title>
+      <link>http://localhost:1313/blog/post-3-copy/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/post-3-copy/</guid>
+      <description>&lt;p&gt;&amp;ldquo;I want to spend a year in Shenzhen,&amp;rdquo; I mentioned to my friends, with no reasonable explanation. To make my goal a reality, I decided to learn Mandarin Chinese, the primary language in Shenzhen, China. I quickly realized learning Chinese is difficult - the Chinese character set, Hanzi, is different from the English alphabet, in that the symbols illustrate meanings instead of representing phonetic sounds. I searched on Google for the best way to learn Chinese, and the first result was &lt;em&gt;Duolingo&lt;/em&gt;, an application that I initially heard about from Social Media.  Duolingo is instantly recognizable for its mascot, a green, pudgy owl, now celebrated as a TikTok celebrity and familiar to many teenagers and adults.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>100 Days of Learning Chinese: Product Breakdown of Duolingo</title>
+      <link>http://localhost:1313/blog/post-3/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/post-3/</guid>
+      <description>&lt;p&gt;&amp;ldquo;I want to spend a year in Shenzhen,&amp;rdquo; I mentioned to my friends, with no reasonable explanation. To make my goal a reality, I decided to learn Mandarin Chinese, the primary language in Shenzhen, China. I quickly realized learning Chinese is difficult - the Chinese character set, Hanzi, is different from the English alphabet, in that the symbols illustrate meanings instead of representing phonetic sounds. I searched on Google for the best way to learn Chinese, and the first result was &lt;em&gt;Duolingo&lt;/em&gt;, an application that I initially heard about from Social Media.  Duolingo is instantly recognizable for its mascot, a green, pudgy owl, now celebrated as a TikTok celebrity and familiar to many teenagers and adults.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Oxygen - Fixing the Nursing Shortage</title>
+      <link>http://localhost:1313/blog/post-2/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/post-2/</guid>
+      <description>&lt;p&gt;In the heart of the University of Washington&amp;rsquo;s Annual DubHacks Hackathon, a seed of an idea took root, stemmed from a global issue in healthcare that hits my family close to home. My name is Nathan Daeila, and along with my colleague Ben Price, we set out on a journey not just to develop an application but to create a meaningful solution to a critical problem facing our healthcare system: the nursing shortage. This narrative isn&amp;rsquo;t about pitching an app; it&amp;rsquo;s about sharing our journey, our challenges, our intentions, and everything else that went into making &lt;em&gt;Oxygen&lt;/em&gt; a reality.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to My Tech Blog Journey!</title>
+      <link>http://localhost:1313/blog/post-1/</link>
+      <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/post-1/</guid>
+      <description>&lt;h5 id=&#34;hello-and-welcome&#34;&gt;Hello and Welcome!&lt;/h5&gt;&#xA;&lt;p&gt;I am Nathan, and I am thrilled to introduce you to my new blog. Here, I&amp;rsquo;ll be merging my passion for technology with my professional journey, aiming to create a space that&amp;rsquo;s both informative and engaging.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Search Result</title>
+      <link>http://localhost:1313/search/</link>
+      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      <guid>http://localhost:1313/search/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;nathan-daeila&#34;&gt;Nathan Daeila&lt;/h2&gt;&#xA;&lt;h3 id=&#34;product-manager--ischool-student&#34;&gt;Product Manager &amp;amp; iSchool Student&lt;/h3&gt;&#xA;&lt;h4 id=&#34;university-of-washington-seattle&#34;&gt;University of Washington, Seattle&lt;/h4&gt;&#xA;&lt;p&gt;I am Nathan Daeila, an aspiring Product Manager driven by a vision where every challenge is a stepping stone to innovation. Starting in the tech world as an IT intern during a global chip shortage, I quickly learned that when resources are scarce, creativity must flourish. Repairing computers and laptops was just the beginning; I soon found myself automating tasks in the IT department, paving my way to a role as a Systems Administrator.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;h1 id=&#34;contact-me&#34;&gt;Contact Me&lt;/h1&gt;&#xA;&lt;p&gt;Welcome to Daeila.com! I&amp;rsquo;m thrilled that you&amp;rsquo;ve taken the time to visit my website.&#xA;Whether you have questions, feedback, or just want to say hello, I&amp;rsquo;d love to hear from you.&#xA;Your thoughts and ideas are important to me, and I&amp;rsquo;m here to assist you in any way I can.&#xA;Please don&amp;rsquo;t hesitate to reach out, and I&amp;rsquo;ll do my best to respond promptly.&#xA;Thank you for connecting with me, and I look forward to engaging with you!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Element</title>
+      <link>http://localhost:1313/element/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/element/</guid>
+      <description>&lt;p&gt;This is going to be my resume.&lt;/p&gt;&#xA;&lt;h1 id=&#34;elements&#34;&gt;Elements&lt;/h1&gt;&#xA;&lt;p&gt;A paragraph looks like this — Globally incubate standards compliant channels before scalable benefits. Quickly&#xA;disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar&#xA;catalysts for change before vertical architectures. Credibly reintermediate backend ideas for cross-platform&#xA;models. Continually reintermediate integrated processes through technically sound intellectual capital.&#xA;Holistically foster superior methodologies. Check out &lt;a href=&#34;https://daeila.com&#34;&#xA;&#xA;&#xA;&#xA;&#xA; target=&#34;_blank&#34;&#xA; &#xA;&#xA;&#xA;&gt;Daeila.com&lt;/a&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Resume</title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resume/</guid>
+      <description>&lt;div style=&#34;text-align: center;&#34;&gt;&lt;a&#xA;  href=&#34;http://tinyurl.com/ndaeila-resume&#34;&#xA;  class=&#34;btn btn-primary text-white&#34;&#xA;  &#xA;    target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xA;  &#xA;  &gt;Download Resume&lt;/a&#xA;&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

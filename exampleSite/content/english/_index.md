@@ -1,7 +1,7 @@
 ---
 banner:
   title: "Hello, I’m <br/> Nathan Daeila"
-  description: "I am a Product Manager, a Technologist, & a Creator in the **iSchool** at the **University of Washington, Seattle**.\n\nNeed something done? Let's start now."
+  description: "Product Manager, Technologist, & Creator at the **University of Washington, Seattle**.\n\nNeed something done? Let's start now."
   image: "images/banner.png"
   button1:
     enable : true
