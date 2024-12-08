@@ -1,16 +1,52 @@
 ---
 date: "2024-12-05"
-title: "Exploration of Exploratory Data Analysis"
+title: "Emotion Profile: What shape are your emotions?"
 image: "/images/blog/04.png"
-categories: ["Portfolio", "Human-Centered", "Product", "Analysis"]
+categories: ["Portfolio", "Analysis", "Data", "Network Visualization"]
 draft: false
 ---
 
-"I want to spend a year in Shenzhen," I mentioned to my friends, with no reasonable explanation. To make my goal a reality, I decided to learn Mandarin Chinese, the primary language in Shenzhen, China. I quickly realized learning Chinese is difficult - the Chinese character set, Hanzi, is different from the English alphabet, in that the symbols illustrate meanings instead of representing phonetic sounds. I searched on Google for the best way to learn Chinese, and the first result was *Duolingo*, an application that I initially heard about from Social Media.  Duolingo is instantly recognizable for its mascot, a green, pudgy owl, now celebrated as a TikTok celebrity and familiar to many teenagers and adults.
+Nathan here. What shape are your emotions? After a school quarter of analyzing dots (from 3 completely unrelated projects), I want to bring attention to my semi-new favorite way to visualize a network of seemingly unrelated data points. 
 
-Duolingo is a language learning application that captivates its users by gamifying the process of language acquisition. It goes beyond the basics, ensuring every facet of the app is engaging, much like a game. This includes the competitive League System, motivating Streaks, and the rewarding cycle of awards and achievements. These features are meticulously crafted to enhance the user experience, motivating learners to engage with multiple Duolingo lessons daily.
+Recently, I have been encountering a reoccurring need to create visualizations that help me spatially understand the shape and contents of my data... that is, before I know what insights I intend to uncover from the data. 
 
-<img src="/images/blog/03-EngagementDiagram.png">
+My problem is, I don't want to make 80 different visualizations from every angle of my data when I want to explore what my data looks like, and I don't have the patience to read and interpret all the rows of my data one-by-one. However, without fully understanding what my data looks like or how it's shaped, I have a hard time finding patterns in my data worth analyzing, or how to best fit predictive models to my data. I loosely understand that there are algorithmic approaches to understanding your data, like using [silhouette scores or dissimilarity/similarity paired with optimization algorithms](https://www.google.com/search?q=measure+how+clustered+your+data+is) to measure how well-defined possible clusters in your data may be, or using SHAP values to figure out how multiple independent features impact a dependent metric within your ML model... But I oftentimes have a hard time figuring out what I want to explore within my data in the first place.
+
+In a perfect world, I would have a quick tool at my fingertips that helps me understand my data with little to no bootstrapping. 
+
+(Disclaimer: There are definitely better exploratory data analysis tools that already exist than the upcoming one I made below, but I wanted to make one that's 3D).
+
+Then I remembered a way to simply use your eyes to see the shape of data. I thought back to an internship I had a while ago, while I was still in the SWE womb trying to comprehend the complexities of basic Git usage. We had access to this amazing tool that allowed us to see how data looks, once the DS team vectorized it for our purposes and probably flattened the dimensions to fit in 3D space. And most importantly, every time I used this tool, I found new insights and eureka moments that led to more questions that I wanted to answer. I knew at that point that I had to recreate the tool, but fix some of the pain points that constrained the tool to only proprietary purposes. 
+
+
+#### Exploring Exploratory Data Analysis (EDA) in 3D
+<img src="/images/blog/EmotionGraph/EmotionProfile.png">
+
+
+
+#### The Shape of Emotion: Porting results from pre-trained models using RoBERTa into 
+Since a picture is worth 1000 rows, 
+
+
+
+
+#### Dev + Design Process
+Believe it or not, creating a 3D Exploratory Data Analysis Tool was as straightforward as creating one in 2D, so naturally I opted to create a 3D tool.
+
+I found a package for React called [React-Force-Graph](https://github.com/vasturiano/react-force-graph) which allows you to position nodes and create edges as you like within 3D space (which looks awesome). The best part is, it's fully customizable because on the backend it's just Three.js, and the amount of detail in the documentation is surreal.
+
+The only caveat - since it is a force graph, forces are applied between the nodes. It's important to set parameter forceEngine="none" and charge={0} to remove meddling, specially if there are links between nodes, because forces from links and other nodes will move nodes out of their respective coordinates (but I recommend leaving the charge parameter alone because its effects are miniscule). After turning the actual forceEngine off, it became exactly what I needed to put my nodes in 3D space. 
+
+Another drawback was the lack of interactivity, so I dressed up the application by adding features like **Settings** and the **Node Information Popup** (when you click a node) to enhance the user's ability to explore the data. Additionally, I wanted node colors to be obvious, so I added a **Color Legend** to
+
+I also added Light and Dark Mode, because I would never dare to forget giving users the option. 
+
+
+
+
+
+
+
 
 
 #### Maintaining Commitment to Duolingo
