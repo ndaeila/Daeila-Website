@@ -1,7 +1,7 @@
 ---
 date: "2024-12-05"
 title: "Emotion Profile: What shape are your emotions?"
-image: "/images/blog/04.png"
+image: "/images/blog/EmotionGraph/EmotionProfile.png"
 categories: ["Portfolio", "Analysis", "Data", "Network Visualization"]
 draft: false
 ---
@@ -20,7 +20,7 @@ Then I remembered a way to simply use your eyes to see the shape of data. I thou
 
 
 #### Exploring Exploratory Data Analysis (EDA) in 3D
-<img src="/images/blog/EmotionGraph/EmotionProfile.png">
+<img src="/images/blog/EmotionProfile.png">
 
 
 
@@ -35,9 +35,9 @@ Believe it or not, creating a 3D Exploratory Data Analysis Tool was as straightf
 
 I found a package for React called [React-Force-Graph](https://github.com/vasturiano/react-force-graph) which allows you to position nodes and create edges as you like within 3D space (which looks awesome). The best part is, it's fully customizable because on the backend it's just Three.js, and the amount of detail in the documentation is surreal.
 
-The only caveat - since it is a force graph, forces are applied between the nodes. It's important to set parameter forceEngine="none" and charge={0} to remove meddling, specially if there are links between nodes, because forces from links and other nodes will move nodes out of their respective coordinates (but I recommend leaving the charge parameter alone because its effects are miniscule). After turning the actual forceEngine off, it became exactly what I needed to put my nodes in 3D space. 
+The only caveat - since it is a force graph, forces are applied between the nodes. It's important to set parameter forceEngine="none" and charge={0} to remove meddling, specially if there are links between nodes, because forces from links and other nodes will move nodes out of their respective coordinates (but I recommend leaving the charge parameter alone because its effects are miniscule). After turning the forceEngine off, react-force-graph became exactly what I needed to put my nodes in 3D space. 
 
-Another drawback was the lack of interactivity, so I dressed up the application by adding features like **Settings** and the **Node Information Popup** (when you click a node) to enhance the user's ability to explore the data. Additionally, I wanted node colors to be obvious, so I added a **Color Legend** to
+Another drawback was the lack of interactivity, so I dressed up the application by adding features like **Settings** and the **Node Information Popup** (when you click a node) to enhance the user's ability to explore the data on a granular level. Additionally, I wanted node colors to be obvious, particularly since colors  so I added a **Color Legend** to
 
 I also added Light and Dark Mode, because I would never dare to forget giving users the option. 
 

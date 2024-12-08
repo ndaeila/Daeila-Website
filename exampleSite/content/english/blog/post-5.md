@@ -1,6 +1,6 @@
 ---
 date: "2024-12-07"
-title: "Making Woven World: Re-Learning Doing Things That I Want to Do"
+title: "Welcome to Woven World"
 image: "/images/blog/04.png"
 categories: ["Portfolio", "Web Dev", "Game"]
 draft: false
