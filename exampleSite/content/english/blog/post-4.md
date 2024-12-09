@@ -1,7 +1,7 @@
 ---
 date: "2024-12-05"
 title: "What shape are your emotions?"
-image: "/images/blog/EmotionGraph/EmotionProfile.png"
+image: "/images/blog/04.png"
 categories: ["Portfolio", "Analysis", "Data", "Network-Visualization"]
 draft: false
 ---
@@ -10,14 +10,9 @@ Emotion Profile is a web application I created that visualizes the sentiment aro
 
 <a href="https://emotiongraph-570ed.web.app/?darkMode=true&initialSwitch=false&nodeSize=88&selectedFile=obama_v_others_2007_2011_graph.json">Emotion Graph</a>
 
-> This article should be treated like a draft. Upcoming changes for this article: more images, more details about emotion data, other use cases of graph, better explanation of why it got created.
-
 #### The Shape of Emotion: Testing Pre-Trained Models with the Tool 
-<img src="/images/blog/EmotionProfile.png">
-Since a picture is worth 1000 rows, I took the time to 
+<img src="/images/blog/EmotionGraph/EmotionProfile.png">
 
-
-#### Why did I create this?
 Recently, I have been encountering a reoccurring need to create visualizations that help me spatially understand the shape and contents of my data post-processing... that is, before I know what insights I intend to uncover from the data. My problem is, I don't want to make 80 different visualizations from every angle of my data every I want to explore what my data looks like, and I don't have the patience to read and interpret all the rows of my data one-by-one. However, without fully understanding what my data looks like or how it's shaped, I have a hard time finding patterns in my data worth analyzing, or how to best fit predictive models to my data. 
 
 In a perfect world, I would have a quick tool at my fingertips that helps me understand my data with little to no bootstrapping. 
@@ -34,9 +29,9 @@ I found a package for React called [React-Force-Graph](https://github.com/vastur
 
 The only caveat - since it is a force graph, forces are applied between the nodes. It's important to set parameter forceEngine="none" and charge={0} to remove meddling, specially if there are links between nodes, because forces from links and other nodes will move nodes out of their respective coordinates (but I recommend leaving the charge parameter alone because its effects are miniscule). After turning the forceEngine off, react-force-graph became exactly what I needed to put my nodes in 3D space. 
 
-Another drawback was the lack of interactivity, so I dressed up the application by adding features like **Settings** and the **Node Information Popup** (when you click a node) to enhance the user's ability to explore the data on a granular level. Additionally, I wanted node colors to be obvious, particularly since colors are used to better understand the position of the dots, so I added a **Color Legend** to
+Another drawback was the lack of interactivity, so I dressed up the application by adding features like **Settings** and the **Node Information Popup** (when you click a node) to enhance the user's ability to explore the data on a granular level. Additionally, I wanted node colors to be obvious, particularly since colors are used to better understand the position of the dots, so I added a **Color Legend**, making it easy to understand what is classified where, and by what intensity. 
 
 I also added Light and Dark Mode, because I would never dare forget to give users the option, even though they will just use Dark Mode by default.
 
 
-> More to come! I just have not wrote out this article yet. Ciao!
+> This article is a draft. Upcoming changes for this article: more images, more details about emotion data, other use cases of graph, better explanation of how to use it, corrections.
