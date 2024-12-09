@@ -1,8 +1,8 @@
 ---
 date: "2024-12-07"
-title: "Welcome to Woven World"
-image: "/images/blog/04.png"
-categories: ["Portfolio", "Web Dev", "Game"]
+title: "Welcome to Woven World!"
+image: "/images/blog/05.png"
+categories: ["Portfolio", "Web-Dev", "Game"]
 draft: false
 ---
 
@@ -12,11 +12,11 @@ I remember the day I came home from school and asked my mom if I could take a cl
 
 But once I started prioritizing my grades come Middle School and Scratch started feeling immature, my innate whimsical nature dissipated to make room for a highly motivated perfectionist to rise from the ashes ready to pursue test scores - and as a result, extrinsic motivation proved to be a double-edged sword. I started trading my creativity for memorization and my imagination for critical thinking. 
 
-**Only recently** did I find another opportunity to get back in touch with my old self - the one that spent all of their nights awake to make something that feels cool to me alone.  
+**Only recently** did I find another opportunity to get back in touch with my old self - the one that spent all of their nights awake to make something that feels cool to me alone.
 
-####
+So I made Woven World! I have so much more to say about Woven World, but that will have to wait for another day when I have time to update this article.
+
+Au revoir.
 
 
 > Sidenote: after some digging, there are still traces of "Nathan OS" left on Scratch.MIT.edu - what kid in Elementary School strives to make an Operating System? <img src="/images/blog/WovenWorld/NathanOS.png">
-
-#### References
