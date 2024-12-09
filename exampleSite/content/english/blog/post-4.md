@@ -8,7 +8,7 @@ draft: false
 
 Emotion Profile is a web application I created that visualizes the sentiment around comments on the Flickr website regarding and before the 2008 and 2012 US elections. After a school quarter of manipulating and analyzing dots (from 3 completely unrelated projects), I want to bring to attention my semi-new favorite way to visualize a network of seemingly unrelated data points. 
 
-<a href="https://emotiongraph-570ed.web.app/?darkMode=true&initialSwitch=false&nodeSize=88&selectedFile=obama_v_others_2007_2011_graph.json">Emotion Graph</a>
+<a href="https://emotiongraph-570ed.web.app/?darkMode=true&initialSwitch=false&nodeSize=88&selectedFile=obama_v_others_2007_2011_graph.json" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #007BFF; text-align: center; text-decoration: none; border-radius: 5px;">Emotion Graph</a>
 
 #### The Shape of Emotion: Testing Pre-Trained Models with the Tool 
 <img src="/images/blog/EmotionGraph/EmotionProfile.png">
