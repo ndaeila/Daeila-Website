@@ -34,4 +34,4 @@ Another drawback was the lack of interactivity, so I dressed up the application 
 I also added Light and Dark Mode, because I would never dare forget to give users the option, even though they will just use Dark Mode by default.
 
 
-> This article is a draft. Upcoming changes for this article: more images, more details about emotion data, other use cases of graph, better explanation of how to use it, corrections.
+> This article is a draft. Upcoming changes for this article: more images, more details about emotion data, other use cases of graph, better explanation of how to use it, many corrections (if I have time).

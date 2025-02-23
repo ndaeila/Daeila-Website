@@ -41,7 +41,7 @@ theme_default = "system" # available options [light/dark/system]
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
 keywords = ["Blog", "Daeila"]
-description = "Daeila.com is a blog where Nathan Daeila posts articles about topics he cares about."
+description = "Daeila.com is a blog where I posts articles about topics I care about."
 authors = ["Nathan Daeila"]
 image = "images/og-image.jpg"      # this image will be used as fallback if a page has no image of its own
 

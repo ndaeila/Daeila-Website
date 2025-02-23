@@ -6,14 +6,28 @@
     <description>Recent content in Latest News on Nathan Daeila - Technical Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Exploration of Exploratory Data Analysis</title>
-      <link>http://localhost:1313/blog/post-3-copy/</link>
+      <title>Every Website Needs to be Redesigned (Again) for Agent Experience (AX)</title>
+      <link>http://localhost:1313/blog/post-6/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/post-6/</guid>
+      <description>&lt;p&gt;Redesigning the internet for User Experience was hard enough - but humans aren&amp;rsquo;t the only users of the internet anymore. We may need to redesign every website, app, and service for the Consumer AI Assistants of 2030&amp;hellip; I understand how this sounds like an overexaggeration, but bear with me.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to Woven World!</title>
+      <link>http://localhost:1313/blog/post-5/</link>
+      <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/post-5/</guid>
+      <description>&lt;p&gt;All children are artists, and their main challenge as life moves forward is &amp;ldquo;how do you remain one when you grow up&amp;rdquo;?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What shape are your emotions?</title>
+      <link>http://localhost:1313/blog/post-4/</link>
       <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/post-3-copy/</guid>
-      <description>&lt;p&gt;&amp;ldquo;I want to spend a year in Shenzhen,&amp;rdquo; I mentioned to my friends, with no reasonable explanation. To make my goal a reality, I decided to learn Mandarin Chinese, the primary language in Shenzhen, China. I quickly realized learning Chinese is difficult - the Chinese character set, Hanzi, is different from the English alphabet, in that the symbols illustrate meanings instead of representing phonetic sounds. I searched on Google for the best way to learn Chinese, and the first result was &lt;em&gt;Duolingo&lt;/em&gt;, an application that I initially heard about from Social Media.  Duolingo is instantly recognizable for its mascot, a green, pudgy owl, now celebrated as a TikTok celebrity and familiar to many teenagers and adults.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/post-4/</guid>
+      <description>&lt;p&gt;Emotion Profile is a web application I created that visualizes the sentiment around comments on the Flickr website regarding and before the 2008 and 2012 US elections. After a school quarter of manipulating and analyzing dots (from 3 completely unrelated projects), I want to bring to attention my semi-new favorite way to visualize a network of seemingly unrelated data points.&lt;/p&gt;</description>
     </item>
     <item>
       <title>100 Days of Learning Chinese: Product Breakdown of Duolingo</title>
