@@ -6,7 +6,9 @@ categories: ["Portfolio", "Human-Centered", "Product", "Analysis"]
 draft: false
 ---
 
-"I want to spend a year in Shenzhen," I mentioned to my friends, with no reasonable explanation. To make my goal a reality, I decided to learn Mandarin Chinese, the primary language in Shenzhen, China. I quickly realized learning Chinese is difficult - the Chinese character set, Hanzi, is different from the English alphabet, in that the symbols illustrate meanings instead of representing phonetic sounds. I searched on Google for the best way to learn Chinese, and the first result was *Duolingo*, an application that I initially heard about from Social Media.  Duolingo is instantly recognizable for its mascot, a green, pudgy owl, now celebrated as a TikTok celebrity and familiar to many teenagers and adults.
+"I want to spend a year in Shenzhen," I mentioned to my friends, with no reasonable explanation. To make my goal a reality, I decided to learn Mandarin Chinese, the primary language in Shenzhen, China. 
+
+I quickly realized learning Chinese is difficult - the Chinese character set, Hanzi, is different from the English alphabet, in that the symbols illustrate meanings instead of representing phonetic sounds. I searched on Google for the best way to learn Chinese, and the first result was *Duolingo*, an application that I initially heard about from Social Media.  Duolingo is instantly recognizable for its mascot, a green, pudgy owl, now celebrated as a TikTok celebrity and familiar to many teenagers and adults.
 
 Duolingo is a language learning application that captivates its users by gamifying the process of language acquisition. It goes beyond the basics, ensuring every facet of the app is engaging, much like a game. This includes the competitive League System, motivating Streaks, and the rewarding cycle of awards and achievements. These features are meticulously crafted to enhance the user experience, motivating learners to engage with multiple Duolingo lessons daily.
 

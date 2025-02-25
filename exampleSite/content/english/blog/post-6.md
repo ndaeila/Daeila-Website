@@ -6,7 +6,7 @@ categories: ["AI", "Web-Dev", "Product"]
 draft: false
 ---
 
-Redesigning the internet for User Experience was hard enough - but humans aren't the only users of the internet anymore. We may need to redesign every website, app, and service for the Consumer AI Assistants of 2030... I understand how this sounds like an overexaggeration, but bear with me. 
+Redesigning the internet for User Experience was hard enough - but humans aren't the only users of the internet anymore. We may need to redesign every website, app, and service for the Consumer AI Assistants of 2030... I understand how this sounds like an overexaggeration, but it isn't. 
 
 The CEO of Netlify just coined a groundbreaking new term **"Agent Experience" (AX)** and nobody's talking about it yet. Here's exactly why we need to start thinking about AX:
 
@@ -75,3 +75,5 @@ There are so many more considerations at play - none of which are fully-research
 Think about the **affordances, allowances, and user flows** you would like to provide to the consumer/business AI Agents of 2030, and make sure you build your products with **AI Agent Accessibility** in mind.
 
 > 🔗 **[Read the original article by Netlify CEO Mathias Biilmann](https://biilmann.blog/articles/introducing-ax/)**  
+
+> 🔗 **[Further Reading at AgentExperience.ax](https://agentexperience.ax/articles/)**  
