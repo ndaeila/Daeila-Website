@@ -1,0 +1,69 @@
+# Sveltia CMS config — mirrors the old Forestry collections.
+# Edit posts/pages here in the browser -> commits to GitHub main -> runner deploys.
+backend:
+  name: github
+  repo: ndaeila/Daeila-Website
+  branch: main
+  base_url: https://www.daeila.com/cms
+  auth_endpoint: /auth
+
+site_url: https://www.daeila.com
+logo_url: /images/logo.png
+locale: en
+
+# Default media location for any future image-widget uploads (served as static).
+media_folder: static/images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: blog
+    label: Blog Posts
+    label_singular: Post
+    folder: content/blog
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    summary: "{{title}} — {{date}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Publish Date, name: date, widget: datetime, date_format: YYYY-MM-DD, time_format: false, format: YYYY-MM-DD }
+      - { label: Cover Image, name: image, widget: string, required: false, hint: "Path under assets/images — e.g. images/blog/01.jpg" }
+      - { label: Categories, name: categories, widget: list, required: false }
+      - { label: Draft (hide from production), name: draft, widget: boolean, default: false }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: pages
+    label: Pages
+    delete: false
+    create: false
+    files:
+      - label: Home
+        name: home
+        file: content/_index.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }
+      - label: About
+        name: about
+        file: content/about.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Image, name: image, widget: string, required: false }
+          - { label: Description, name: description, widget: string, required: false }
+          - { label: Layout, name: layout, widget: select, options: [about], required: false }
+          - { label: Button Text, name: button, widget: string, required: false }
+          - { label: Body, name: body, widget: markdown }
+      - label: Contact
+        name: contact
+        file: content/contact.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }
+      - label: Résumé
+        name: resume
+        file: content/resume.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }

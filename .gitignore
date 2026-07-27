@@ -23,5 +23,5 @@ builds/
 # NOTE: go.sum IS tracked (needed for reproducible Hugo module builds).
 # NOTE: package-lock.json IS tracked when present.
 
-# TinaCMS generated client (output of `tinacms build`)
-tina/__generated__
+# CMS OAuth secrets (live only on the server, NEVER commit)
+cms/secrets.env

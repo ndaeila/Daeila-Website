@@ -1,0 +1,32 @@
+{
+    # Keep admin API on localhost so `caddy reload` works with zero downtime.
+    admin 127.0.0.1:2019
+}
+
+:1313 {
+    root * /home/com-daeila/sites/daeila/public
+    encode zstd gzip
+
+    header {
+        X-Frame-Options "DENY"
+        X-Content-Type-Options "nosniff"
+        Referrer-Policy "same-origin"
+        Permissions-Policy "camera=(), microphone=(), geolocation=()"
+        Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+        ?Cache-Control "no-cache"
+    }
+
+    @assets path *.css *.js *.webp *.woff2 *.woff *.ttf *.svg *.ico
+    header @assets Cache-Control "public, max-age=31536000, immutable"
+
+    # Sveltia CMS OAuth proxy
+    handle_path /cms/* {
+        reverse_proxy 127.0.0.1:54321
+    }
+
+    # Static site (Hugo output)
+    handle {
+        file_server
+        try_files {path} {path}/ /404.html
+    }
+}
