@@ -1,0 +1,55 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, daeila]
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Resolve Hugo
+        run: |
+          if command -v hugo >/dev/null 2>&1; then echo "Using hugo on PATH"; else echo "/snap/bin" >> "$GITHUB_PATH"; fi
+          hugo version
+
+      - name: Build site
+        run: hugo --gc --minify --logLevel warn
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+
+      - name: Atomic deploy
+        run: |
+          set -e
+          DEST="$HOME/sites/daeila/public"
+          STAGING="$HOME/sites/daeila/.public-staging"
+          mkdir -p "$HOME/sites/daeila"
+          rm -rf "$STAGING"
+          cp -a public "$STAGING"
+          [ -d "$DEST" ] && mv "$DEST" "$DEST.old" || true
+          mv "$STAGING" "$DEST"
+          rm -rf "$DEST.old"
+          printf '%s\n' "Deployed ${GITHUB_SHA::7} -> $DEST"
+
+      - name: Summary
+        run: |
+          {
+            echo "### Deployed to daeila server"
+            echo "commit: ${GITHUB_SHA::7}"
+            echo "pages: $(find $HOME/sites/daeila/public -name '*.html' | wc -l)"
+            echo "time: $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+          } >> "$GITHUB_STEP_SUMMARY"
