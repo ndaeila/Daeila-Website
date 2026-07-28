@@ -24,9 +24,13 @@
         reverse_proxy 127.0.0.1:54321
     }
 
-    # Static site (Hugo output)
+    # Static site (Hugo output). Missing files return a real 404 (not a
+    # masked 200), then we render the custom 404 page.
     handle {
         file_server
-        try_files {path} {path}/ /404.html
+    }
+    handle_errors {
+        rewrite * /404.html
+        file_server
     }
 }
