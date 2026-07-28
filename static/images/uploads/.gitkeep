@@ -1,0 +1,2 @@
+# Keeps the uploads directory in git so it exists from the first deploy.
+# Sveltia uploads land here: static/images/uploads/

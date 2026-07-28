@@ -11,7 +11,8 @@ site_url: https://www.daeila.com
 logo_url: /images/logo.png
 locale: en
 
-# Default media location for any future image-widget uploads (served as static).
+# Uploaded images land here (served directly by Caddy as static files,
+# no Hugo pipeline needed). Existing posts keep their assets/images paths.
 media_folder: static/images/uploads
 public_folder: /images/uploads
 
@@ -29,7 +30,7 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Publish Date, name: date, widget: datetime, date_format: YYYY-MM-DD, time_format: false, format: YYYY-MM-DD }
-      - { label: Cover Image, name: image, widget: string, required: false, hint: "Path under assets/images — e.g. images/blog/01.jpg" }
+      - { label: Cover Image, name: image, widget: image, required: false, hint: "Upload a new image, or use an existing path like images/blog/01.jpg" }
       - { label: Categories, name: categories, widget: list, required: false }
       - { label: Draft (hide from production), name: draft, widget: boolean, default: false }
       - { label: Body, name: body, widget: markdown }
@@ -50,7 +51,7 @@ collections:
         file: content/about.md
         fields:
           - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: string, required: false }
+          - { label: Image, name: image, widget: image, required: false }
           - { label: Description, name: description, widget: string, required: false }
           - { label: Layout, name: layout, widget: select, options: [about], required: false }
           - { label: Button Text, name: button, widget: string, required: false }
