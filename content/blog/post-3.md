@@ -1,19 +1,22 @@
 ---
-date: "2024-02-01"
-title: "100 Days of Learning Chinese: Product Breakdown of Duolingo"
-image: "/images/blog/03.png"
-categories: ["Portfolio", "Human-Centered", "Product", "Analysis"]
+title: '100 Days of Learning Chinese: Product Breakdown of Duolingo'
+date: 2024-02-01
+image: /images/blog/03.png
+categories:
+  - Portfolio
+  - Human-Centered
+  - Product
+  - Analysis
 draft: false
 ---
 
 "I want to spend a year in Shenzhen," I mentioned to my friends, with no reasonable explanation. To make my goal a reality, I decided to learn Mandarin Chinese, the primary language in Shenzhen, China. 
 
-I quickly realized learning Chinese is difficult - the Chinese character set, Hanzi, is different from the English alphabet, in that the symbols illustrate meanings instead of representing phonetic sounds. I searched on Google for the best way to learn Chinese, and the first result was *Duolingo*, an application that I initially heard about from Social Media.  Duolingo is instantly recognizable for its mascot, a green, pudgy owl, now celebrated as a TikTok celebrity and familiar to many teenagers and adults.
+I quickly realized learning Chinese is difficult - the Chinese character set, Hanzi, is different from the English alphabet, in that the symbols illustrate meanings instead of representing phonetic sounds. I searched on Google for the best way to learn Chinese, and the first result was _Duolingo_, an application that I initially heard about from Social Media.  Duolingo is instantly recognizable for its mascot, a green, pudgy owl, now celebrated as a TikTok celebrity and familiar to many teenagers and adults.
 
 Duolingo is a language learning application that captivates its users by gamifying the process of language acquisition. It goes beyond the basics, ensuring every facet of the app is engaging, much like a game. This includes the competitive League System, motivating Streaks, and the rewarding cycle of awards and achievements. These features are meticulously crafted to enhance the user experience, motivating learners to engage with multiple Duolingo lessons daily.
 
 <img src="/images/blog/03-EngagementDiagram.png">
-
 
 #### Maintaining Commitment to Duolingo
 
@@ -29,17 +32,17 @@ The Duolingo application has mechanisms that work together to convince users to 
 
 Streaks are one of the most powerful tools of the decade for fostering loyalty in applications. Many games reward users for maintaining long streaks, and platforms like Snapchat use streaks to symbolize the strength of friendships. The desire to keep a streak going stems from the effort required to build and maintain a sizeable streak. Losing a streak can be discouraging, making it challenging to regain the same level of motivation to start over. Duolingo is well aware of this dynamic and leverages the Streak System to encourage daily engagement from its users. They reward continuous streaks and frequently remind users to maintain their streak, creating significant pressure to keep up the daily habit, visible through persistent notifications and prompts on the home screen. The emphasis on streaks significantly boosts Duolingo's user engagement, creating a sense of daily commitment similar to showcasing long Snapchat streaks among friends. Duolingo has mastered the use of streaks to maintain high levels of user activity, making it a key component of their success in keeping users consistently engaged.
 
-###### Forgiveness: *The Streak Freeze*
+###### Forgiveness: _The Streak Freeze_
 
-However, Duolingo offers a safety net for those who might miss a day: the *Streak Freeze*. This feature, often awarded to users, allows for the preservation of a streak for an additional day if a user fails to complete a lesson. 
+However, Duolingo offers a safety net for those who might miss a day: the _Streak Freeze_. This feature, often awarded to users, allows for the preservation of a streak for an additional day if a user fails to complete a lesson. 
 
 There are many names for this strategy. Educators call this a Second Chance strategy and UX designers call this feature a "forgiveness" or "re-engagement" mechanism. This strategy helps prevent the demotivation that comes with losing a long streak, ensuring users feel encouraged to continue their lessons without interruption.
 
-###### Goals: *The Streak Challenge*
+###### Goals: _The Streak Challenge_
 
-Duolingo takes the streak a step further by creating a *Streak Challenge*. Users are challenged to go days without breaking their streak. Users have the choice to select 7, 14, or 30 days for your Streak Challenge length, which gives users the freedom to give themselves a challenge they feel they can reach. By doing this, users have a shorter goal to work toward that gives a reward for maintaining the streak. Otherwise, users would have to settle for the longer-term rewards for long streaks, given at 50 days, 100 days, 150 days, and 365 days.
+Duolingo takes the streak a step further by creating a _Streak Challenge_. Users are challenged to go days without breaking their streak. Users have the choice to select 7, 14, or 30 days for your Streak Challenge length, which gives users the freedom to give themselves a challenge they feel they can reach. By doing this, users have a shorter goal to work toward that gives a reward for maintaining the streak. Otherwise, users would have to settle for the longer-term rewards for long streaks, given at 50 days, 100 days, 150 days, and 365 days.
 
-You will notice that in the Duolingo app, there is a pattern of creating systems that use **[Implementation Intentions](https://www.researchgate.net/publication/232586066_Implementation_Intentions_Strong_Effects_of_Simple_Plans)** to create features that have the user create an intentional commitment of continue their streak, word toward their goal, and stay consistent.
+You will notice that in the Duolingo app, there is a pattern of creating systems that use [**Implementation Intentions**](https://www.researchgate.net/publication/232586066_Implementation_Intentions_Strong_Effects_of_Simple_Plans) to create features that have the user create an intentional commitment of continue their streak, word toward their goal, and stay consistent.
 
  > "If I need to <u>prolong my streak today</u>, then I will <u>complete a Duolingo lesson</u> in order to <u>work toward my goal of 30 days for my Streak Challenge</u>; otherwise, I will <u>lose my 116 day streak</u>."
 
